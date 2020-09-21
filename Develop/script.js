@@ -17,7 +17,7 @@ debugger
 //function to prompt how long the password needs to be. 
 function getNumberOfCharacters()  {
   getNumberOfCharacters  = "";
-    while(getNumberOfCharacters  < 3 || getNumberOfCharacters  > 128 || getNumberOfCharacters  === null) {
+    while(getNumberOfCharacters  < 8 || getNumberOfCharacters  > 128 || getNumberOfCharacters  === null) {
       getNumberOfCharacters  = prompt("Choose password length between 8 and 128 characters .");
     }
     console.log(getNumberOfCharacters);
